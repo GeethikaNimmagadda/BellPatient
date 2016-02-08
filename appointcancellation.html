@@ -1,0 +1,46 @@
+<html>
+<head>
+    <img id="img" src="ap1.png">
+    <link rel="stylesheet" href="main1.css">
+    <script>
+        function nameValidate(){
+        
+            var errormessage="";
+            
+            if(document.getElementById('name').value==""){
+                errormessage += "please enter a valid Name \n";
+                document.getElementById('name').style.borderColor="red";
+            }
+            
+            if(document.getElementById('contact').value==""){
+                errormessage += "please enter your contact number";
+            document.getElementById('contact').style.bordercolor="red";
+            }
+            
+            if(errormessage !=""){
+                alert(errormessage);
+                return false;
+            }
+        
+        }
+    </script>
+</head>
+<body id="body">
+    <div class="step-box">
+    <h1>Appointment Cancellation</h1>
+    <form onsubmit="return nameValidate();">
+   <label> Name:
+       <input type="text" id="name"></label>
+        <br>
+        <br>
+    <label>Contact No.:
+        <input id="contact" type="tel"></label>
+    <br>
+        <br>
+        <button id="btn" type="button"><a href="schedulingappointment.html"> Back </a> </button>&nbsp;
+        <input id="btn" type="submit" value="submit"><a href=""></a>
+       
+    </form>
+    </div>
+    </body>
+</html>

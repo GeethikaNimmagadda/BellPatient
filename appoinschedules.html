@@ -1,0 +1,60 @@
+<html>
+<head>
+    <img id="img" src="ap1.png">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="main1.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+     $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+    </script>
+    </head>
+<body id="body">
+    <h1 id="heading"> Doctors Availability</h1>
+            <div class="container">
+                <div class="step-box">
+                    <ul class="pagination pagination-lg">
+                        <li><a href="#" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-home"></span> Home
+        </a></li>
+                    <li>
+                        <a href="javascript:void(0)"><span>1</span>
+                            <strong>Find Doctors</strong></a></li>
+                    <li><a href="javascript:void(0)"><span>2</span>
+                            <strong>Appointment Schedules</strong></a></li>
+                    
+                    <li><a href="javascript:void(0)"><span>3</span>
+                            <strong>Select timeslot</strong></a></li>
+                    <li><a href="javascript:void(0)"><span>4</span>
+                            <strong>Patient details</strong></a></li>
+                    <li><a href="javascript:void(0)"><span>5</span>
+                            <strong>Confirm</strong></a></li>
+            </ul>
+<div id="schedules">
+            <h1>Appointment Schedules</h1>
+                 <div class="innercontent">
+                <h4> Select a Appointment Date</h4>
+                <div class="column1">
+                    <p>Date: 
+                        <span>*</span>
+                        <input type="text" id="datepicker"></p>
+                </div>
+                     <button id="btn" type="button"><a href="doctorappointment.html">Back</a></button> &nbsp; &nbsp;
+                    <button id="btn" type="button"><a href="patientdetail.html">Next</a></button>
+                     <br/>
+                     <br/>
+                </div>
+                 </div>
+                </div>
+    </div>
+    </body>
+</html>
