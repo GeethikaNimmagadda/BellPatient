@@ -1,0 +1,35 @@
+#body {
+    background-color: antiquewhite;
+}
+.step-box{
+    border-style:solid;
+    border-color:cadetblue;
+    padding-left:30px;
+    border-width: 20px;
+}
+.pagination{
+    width:inherit;
+}
+#btn{
+    
+    background-color: blue;
+    padding: 4px;
+}
+#img{
+    padding-right:20px;
+}
+#heading{
+    color: blue;
+    padding-left:900px;
+}
+#head{ color: blue}
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+#foot{
+    padding-bottom: 30px;
+    position:absolute;
+    bottom:10px;
+    left: 600px;
+}
+
+
