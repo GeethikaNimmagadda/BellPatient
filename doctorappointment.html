@@ -1,6 +1,6 @@
 <html>
 <head>
-    <img id="img" src="ap1.png">
+    <img id="img" src="images/ap1.png">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="main1.css">
@@ -11,24 +11,6 @@
 <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    
-      <script>
-        function nameValidate(){
-        
-            var errormessage="";
-            
-            if(document.getElementById('auto').value==""){
-                errormessage += "please enter the name of the Doctor";
-            document.getElementById('auto').style.bordercolor="red";
-            }
-            
-            if(errormessage !=""){
-                alert(errormessage);
-                return false;
-            }
-        
-        }
-    </script>
                                            
 </head>
     <body id="body">
@@ -75,10 +57,10 @@
     });
   });
  </script>
-                    <form onsubmit="return namevalidate();">
+                   
     Name of the doctor:     
-    <input id="auto" type="text" />
-                         </form>
+    <input id="auto" type="text" required />
+            
                     <br>
                     <br>
             

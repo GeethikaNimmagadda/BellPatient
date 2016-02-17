@@ -22,6 +22,12 @@
     color: blue;
     padding-left:900px;
 }
+#ht{
+    font-size: 15px;
+    font-style: normal;
+    color: blue;
+    
+}
 #head{ color: blue}
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
     .row.content {height: 1500px}
